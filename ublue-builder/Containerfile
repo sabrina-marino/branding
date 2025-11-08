@@ -1,7 +1,0 @@
-FROM registry.fedoraproject.org/fedora:latest@sha256:f0d778863d01528891182a7ed7e3c4ad27fa17f5207c00934f319fe9745c41ca
-
-COPY mock-wrapper /usr/bin
-
-RUN dnf install -y mock rpmdevtools rpkg copr-cli rpmlint && dnf clean all
-
-ENTRYPOINT ["/usr/bin/mock-wrapper"]
