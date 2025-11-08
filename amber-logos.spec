@@ -11,6 +11,7 @@ URL:            https://github.com/sabrina-marino/branding
 VCS:            {{{ git_dir_vcs }}}
 Source:         {{{ git_dir_pack }}}
 
+Provides: almalinux-logos
 Provides: fedora-logos
 Provides: redhat-logos
 Provides: gnome-logos
