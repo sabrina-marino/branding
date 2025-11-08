@@ -4,10 +4,10 @@
 Name:           fedora-logos
 Version:        100.0.0
 Release:        8%{?dist}
-Summary:        Aurora branding
+Summary:        amber branding
 
 License:        CC-BY-SA
-URL:            https://github.com/ublue-os/packages
+URL:            https://github.com/sabrina-marino/branding
 VCS:            {{{ git_dir_vcs }}}
 Source:         {{{ git_dir_pack }}}
 
@@ -19,7 +19,7 @@ Conflicts: fedora-logos
 BuildArch:      noarch
 
 %description
-Branding for Aurora's anaconda
+Branding for amber's anaconda
 
 %prep
 {{{ git_dir_setup_macro }}}
